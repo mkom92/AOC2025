@@ -32,6 +32,8 @@ def star_1(inp_file: str, timeit = False):
 
     return next(iter(areas.items()))
 
+# Edge cases from Reddit: https://www.reddit.com/r/adventofcode/comments/1pi5rqn/2025_day_9_part_2_check_your_solution_with_this/
+
 def star_2(inp_file: str, timeit = False):
 
     start = time.perf_counter()
